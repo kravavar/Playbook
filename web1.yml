@@ -5,5 +5,5 @@
    tasks:
     - name: sruthi sruthi sruthi install the httod
       yum: name=httpd state=present
-    - name: Test services add to the httpd service restart
+    - name: third test Test services add to the httpd service restart
       service: name=httpd state=started
