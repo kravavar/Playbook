@@ -3,7 +3,7 @@
    remote_user: root
    become: yes
    tasks:
-    - name: install the httod
+    - name: sruthi sruthi sruthi install the httod
       yum: name=httpd state=present
     - name: httpd service restart
       service: name=httpd state=started
